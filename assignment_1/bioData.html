@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bio Data</title>
+</head>
+
+<body>
+    <a href = "./assignment1.html"><h2>Home</h2></a>
+   <u><h1>My Bio Data</h1></u> 
+     <!-- this fieldset is used for to enter the personal info -->
+     <form action="#" method="GET">
+        <fieldset>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <br>
+        <label for="firstName">FirstName: </label>
+        <input type="text" id="firstName" placeholder="First Name" required>
+        &nbsp;
+        <label for="lastName">LastName: </label>
+        <input type="text" id="lastName" placeholder="First Name" required>
+        <br>
+        <br>
+            <!-- radio button to select gender -->
+        <label for="male">Male: </label>
+        <input type="radio" id="male" name="gender">
+        <label for="female">Female: </label>
+        <input type="radio" id="female" name="gender">
+        <label for="other">Other: </label>
+        <input type="radio" id="other" name="gender">
+        <br>
+        <br>
+          <!-- choose the date of birth using default calender -->
+        <label for="dob">Date Of Birth: </label>
+        <input type="date"id="dob" >
+        <br>
+        <br>
+           <!-- input type email to enter the valid email -->
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" placeholder="Enter Your Email">
+        <br>
+        <br>
+           <!-- phone number with only 10 digit numbers -->
+           <label for="phone">Phone: </label>
+        <input type="tel" id="phone" maxlength="10" placeholder="+91">
+        <br>
+        <br>
+        <label for="height">Height: </label>
+        <input type="number" id="height" maxlength="10" placeholder="Height in Feet">
+        <br>
+        
+    </fieldset>
+    <br>
+ 
+     <!-- this fieldset is used for to enter the Eductional info -->
+    <fieldset>
+        <legend>Education</legend>
+        <br>
+        <label for="schoolName">School Name: </label>
+        <input type="text" id="schoolName" placeholder="School Name" required>
+        <br>   
+        <br>
+        <label for="class">Class: </label>
+        <input type="number" id="class" placeholder="Enter Class" required>
+        <br>   
+        <br>
+        <!-- to select the option from dropdown -->
+        <label for="stream">Stream: </label>
+        <select name="" id="stream">
+            <option >Streams</option>
+            <option >Science</option>
+            <option >Commerce</option>
+            <option >Vocational</option>
+            <option >Other</option>
+        </select>
+        <br>   
+        <br>
+        <label for="marksheet">Marksheet: </label>
+        <input type="file" id="marksheet">
+    </fieldset>
+    <br>
+    <input type="submit">
+</fieldset>
+
+
+
+    </form>
+</body>
+
+</html>
