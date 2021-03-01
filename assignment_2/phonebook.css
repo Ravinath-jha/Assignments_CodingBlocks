@@ -13,9 +13,14 @@ html{
 }
 
 a{
-    margin-left: 600px;
     color:white;
+    display: inline;
 }
+#github{
+    margin-left: 550px;
+
+}
+
 #content {
     background-color: #a8dadc;
     border: 2px solid black;
