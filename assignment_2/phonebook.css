@@ -57,9 +57,7 @@ a{
     content: "\1F4F1";
   }
 
-  p:nth-of-type(even) {
-    background-color: white;
-  }
+
   p::after {
     margin-left:200px;
     content: "\1F4DE";
