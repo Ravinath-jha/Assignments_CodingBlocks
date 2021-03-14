@@ -48,5 +48,6 @@ button:hover{
     border: 2px solid #caf0f8;
     background-color:black;
     box-shadow: 5px 5px 7px red;
-    transform: translateY(-10px)
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
 }
