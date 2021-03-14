@@ -50,4 +50,5 @@ button:hover{
     box-shadow: 5px 5px 7px red;
     transform: translateY(-10px);
     transition-duration: 0.5s;
+    cursor: pointer;
 }
